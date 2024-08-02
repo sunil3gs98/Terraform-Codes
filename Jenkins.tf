@@ -69,7 +69,7 @@ resource "aws_instance" "Jenkins" {
     /etc/apt/sources.list.d/jenkins.list > /dev/null
     sudo apt-get update
     sudo apt-get install fontconfig openjdk-17-jre -y
-    sudo apt-get install jenkins -y-y
+    sudo apt-get install jenkins -y-y-y
   EOF
 }
 
